@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
     // banner-Slider
 
 
@@ -6,12 +6,15 @@ $(document).ready(function(){
 
 
     $('#testimonial').owlCarousel({
-        loop:true,
-        margin:10,
-        nav:false,
+        loop: true,
+        margin: 10,
+        nav: false,
         dots: true,
-        items: 1,
+        items: 1, 
+        center: true,
+
         startSpeed: 1000,
-        
+        startPosition: 1,
+
     })
 });

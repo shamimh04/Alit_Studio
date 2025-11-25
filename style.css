@@ -122,7 +122,7 @@ a {
     text-decoration: none;
     font-family: poppins, sans-serif;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     transition: color 0.3s ease;
 }
 
@@ -274,7 +274,7 @@ a {
 /* Feature Section */
 
 .feature_section {
-    padding: 80px 0;
+    padding: 70px 0;
     background: #f9f9f9;
 }
 
@@ -293,17 +293,30 @@ a {
     width: 100%;
 }
 
-.feature_section .row .flex_column h1 {
+.feature_section .row .flex_column .feature_content h1 {
     font-size: 36px;
     font-weight: 500;
     margin-bottom: 20px;
     line-height: 1.3;
 }
 
-.feature_section .row .flex_column p {
+.feature_section .row .flex_column .feature_content {
+    width: 550px;
+}
+
+.feature_section .row .flex_column .feature_content p {
     font-size: 16px;
     font-weight: 300;
-    line-height: 1.6;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.feature_section .row .flex_column .feature_content a {
+    color: #1070df;
+    padding: 12px 20px;
+    background: #e6e6e6;
+    font-weight: 500;
+    border-radius: 50px;
 }
 
 .feature_row {
@@ -685,7 +698,8 @@ a {
 .footer .footer_column ul li {
     margin-bottom: 12px;
 }
-.footer .footer_column ul li a{
+
+.footer .footer_column ul li a {
     color: #c2c2c2;
     font-size: 14px;
 }
@@ -719,45 +733,54 @@ a {
     margin-bottom: 20px;
     transition: 0.3s;
 }
-.footer_column .subs button:hover{
+
+.footer_column .subs button:hover {
     opacity: 0.7;
 }
-.footer_column .subs .btn_mail{
+
+.footer_column .subs .btn_mail {
     background: var(--btn02);
     color: #fff;
-} 
-.footer_column .subs .btn_sub{
+}
+
+.footer_column .subs .btn_sub {
     background: var(--btn01);
     color: #fff;
 }
 
 /* Lower Footer */
-.lower_footer{
+.lower_footer {
     padding: 20px 0;
     background: var(--l_footer_bg);
 }
-.lower_footer .row{
+
+.lower_footer .row {
     display: flex;
     justify-content: space-between;
 }
-.lower_footer .row .left span{
+
+.lower_footer .row .left span {
     font-weight: 400;
     color: #fff;
 }
-.lower_footer .row ul{
+
+.lower_footer .row ul {
     list-style: none;
     display: flex;
 }
-.lower_footer .row ul li{
+
+.lower_footer .row ul li {
     padding: 0 10px;
 }
-.lower_footer .row ul li a{
+
+.lower_footer .row ul li a {
     font-size: 12px;
     font-weight: 400;
     color: #8e8e8e;
     transition: 0.3s;
 }
-.lower_footer .row ul li a:hover{
+
+.lower_footer .row ul li a:hover {
     color: #fff;
 }
 
