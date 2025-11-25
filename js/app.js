@@ -8,7 +8,7 @@ $(document).ready(function(){
     $('#testimonial').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
+        nav:false,
         dots: true,
         items: 1,
         startSpeed: 1000,
